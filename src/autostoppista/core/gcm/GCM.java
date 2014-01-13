@@ -22,8 +22,8 @@ import java.util.Map;
 
 public class GCM {
     private MainActivity a;
-	private static final String GCM_SENDER_ID = "131654239725";
-	private static final String GOOGLE_API_KEY = "AIzaSyCM1xZjqgAw8qrfmh-y6bfGzRUiCfGzr8Y";
+	private static final String GCM_SENDER_ID = put-your-google-project-number-here;
+	private static final String GOOGLE_API_KEY = put-your-api-key-here;
     private GoogleCloudMessaging gcm;
     private String regid;
     public GCM(MainActivity a) {

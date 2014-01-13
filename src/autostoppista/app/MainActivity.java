@@ -92,7 +92,8 @@ public class MainActivity extends Activity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		RestCalls.setDOMINE("http://lap2.azurewebsites.net");
+		// TODO set domine server
+		RestCalls.setDOMINE(/*put-your-domine-here*/);
 		Init();
 		setContentView(R.layout.activity_main);
 		switchFragment(Fragment_Login.newAssignParent(this));
