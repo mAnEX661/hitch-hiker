@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Autostoppista</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="button_Ok">OK</string>
+    <string name="button_Cancel">Annulla</string>
+    <string name="button_Send">Invia</string>
+    <string name="button_Save">Salva</string>
+    <string name="button_request">Richiedi passaggio</string>
+    <string name="button_feedback_manage">Gestisci feedback</string>
+    
+    <string name="text_user_name">Nome Cognome</string>
+    <string name="text_user_address">Indirizzo</string>
+	<string name="text_user_username">Nickname</string>
+	<string name="text_user_comment">Commento</string>
+	<string name="text_user_password">Commento</string>
+	<string name="text_user_requestDetail">Dettagli richiesta (opzionale)</string>
+	
+    <string name="wellcome_feedbackForm">Valuta tizio</string>
+    <string name="wellcome_login">Inserisci username e password!</string>
+    <string name="wellcome_user_page">Scegli un\' opzione</string>
+ 
+</resources>

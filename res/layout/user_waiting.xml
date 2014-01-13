@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/container002"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.67"
+        android:gravity="top"
+        android:orientation="vertical" >
+		<ProgressBar
+			android:id="@+id/user_waiting_progressBar"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:indeterminate="true"/>
+		<ListView
+		    android:id="@+id/user_waiting_ListView"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		</ListView>
+	  	</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/buttonlayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="bottom" >
+		   	<Button
+			    android:id="@+id/user_waiting_button_Mafeedback"
+			    style="?android:attr/buttonBarButtonStyle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/button_feedback_manage" />
+	   	</LinearLayout>
+</LinearLayout>
